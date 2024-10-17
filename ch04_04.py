@@ -14,6 +14,6 @@ docs = reader.load_data()
 index = VectorStoreIndex.from_documents(docs)
 qe = index.as_query_engine()
 
-response = qe.query("List all large dog breeds mentiones in Table 2.")
+response = qe.query("Please give a summary of this guy.")
 
 print(response)
